@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_dba", "scripts_dba\scripts_dba.ssmssqlproj", "{ECD0B536-5515-4EB3-9719-82F400FBD127}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_ddl", "scripts_ddl\scripts_ddl.ssmssqlproj", "{FDF876F1-66EE-4C01-9D55-A83C189E12C2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_dml", "scripts_dml\scripts_dml.ssmssqlproj", "{10E57CA6-04DB-48EB-96E2-6B1BFA055C7C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_tools", "scripts_tools\scripts_tools.ssmssqlproj", "{564ECADB-371A-4BED-BB0C-88FC458CB10B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_functions", "scripts_functions\scripts_functions.ssmssqlproj", "{23CF97F5-70B1-45FA-829E-239D1F5697B9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_exceptions", "scripts_exceptions\scripts_exceptions.ssmssqlproj", "{9C4F0362-A7D7-40FD-A1DC-C585A75C6E98}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "scripts_documentation", "scripts_documentation\scripts_documentation.ssmssqlproj", "{0691C53A-D20A-4D84-A428-23164A45D39D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E99E1B53-A071-49AA-8F0C-89A22266BB1E}.Default|Default.ActiveCfg = Default
+		{ECD0B536-5515-4EB3-9719-82F400FBD127}.Default|Default.ActiveCfg = Default
+		{FDF876F1-66EE-4C01-9D55-A83C189E12C2}.Default|Default.ActiveCfg = Default
+		{10E57CA6-04DB-48EB-96E2-6B1BFA055C7C}.Default|Default.ActiveCfg = Default
+		{564ECADB-371A-4BED-BB0C-88FC458CB10B}.Default|Default.ActiveCfg = Default
+		{23CF97F5-70B1-45FA-829E-239D1F5697B9}.Default|Default.ActiveCfg = Default
+		{9C4F0362-A7D7-40FD-A1DC-C585A75C6E98}.Default|Default.ActiveCfg = Default
+		{0691C53A-D20A-4D84-A428-23164A45D39D}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5102A031-544A-40CB-BD76-271E696925DD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+USE TempDB
+GO
+EXEC sp_helpfile
+GO
+
+
+USE master
+GO
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = tempdev, FILENAME = 'D:\SQL2005DEV\SSDE_TMP\tempdb.mdf')
+GO
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = templog, FILENAME = 'D:\SQL2005DEV\SSDE_TMP\templog.ldf')
+GO

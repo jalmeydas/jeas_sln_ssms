@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="scripts_tools">
+  <Items>
+    <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.10.215\SQL2019DEV,49170:jalmeydas">
+          <Created>2024-02-08T21:58:02.972388-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.10.215\SQL2019DEV,49170</Server>
+          <UserName>jalmeydas</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>dbquad_oltp</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 tablas.listar.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>00 tablas.listar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ScriptGenerator.Get.Model.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ScriptGenerator.Get.Model.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Varios" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

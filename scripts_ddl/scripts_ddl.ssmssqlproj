@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="scripts_ddl">
+  <Items>
+    <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.10.215\SQL2019DEV,49170:jalmeydas">
+          <Created>2024-02-08T21:45:50.5255403-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.10.215\SQL2019DEV,49170</Server>
+          <UserName>jalmeydas</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>dbquad_oltp</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ddl-secuencias.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.215\SQL2019DEV,49170:False:jalmeydas</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.215\SQL2019DEV,49170</AssociatedConnSrvName>
+          <AssociatedConnUserName>jalmeydas</AssociatedConnUserName>
+          <FullPath>ddl-secuencias.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Varios" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
